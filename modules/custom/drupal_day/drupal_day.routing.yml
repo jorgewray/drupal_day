@@ -1,0 +1,15 @@
+drupal_day.content:
+    path: 'first-page'
+    defaults:
+        _controller: '\Drupal\drupal_day\Controller\PageController::content'
+        _title: 'hola mundo'
+    requirements:
+        _permission: 'access content'
+drupal_day.form:
+    path: 'form'
+    defaults:
+        _title: 'Primer formulario'
+        _form: '\Drupal\drupal_day\Form\PersonalForm'
+    requirements:
+        _permission: 'access content'
+        

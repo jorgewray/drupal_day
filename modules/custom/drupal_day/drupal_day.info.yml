@@ -1,0 +1,4 @@
+name: Drupal day module
+description: Ejemplo de modulo custom
+type: module
+core: 8.x
